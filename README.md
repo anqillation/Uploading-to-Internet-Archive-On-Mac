@@ -71,13 +71,13 @@ This generates secure S3 API keys and saves them locally to `~/.config/ia.ini`.
 
 ---
 
-## Step 3: Understand Your Item Identifier
+## Step 3: Item Identifier
 
 Every item on the Internet Archive sits at a unique web page:
 
-$$\text{[https://archive.org/details/YOUR-UNIQUE-IDENTIFIER](https://archive.org/details/YOUR-UNIQUE-IDENTIFIER)}$$
+```{[https://archive.org/details/YOUR-UNIQUE-IDENTIFIER```
 
-Your **identifier** is a custom label **you create**. Follow these rules:
+Your **identifier** is a the label/title that you'll see on the search bar. 
 
 * Must be **all lowercase** (e.g., `my-archive-2026`).
 * **No spaces** or special characters (use hyphens or underscores).
@@ -157,7 +157,7 @@ caffeinate -i ia upload my-cool-project ~/Downloads/my-cool-project.zip
 
 ---
 
-## Useful Tips & Troubleshooting
+## Troubleshooting
 
 ### How to Cancel an Active Upload
 
