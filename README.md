@@ -113,6 +113,9 @@ caffeinate -i ia upload YOUR-UNIQUE-IDENTIFIER /path/to/your/file.zip \
 
 ```
 
+Change mediatype:data into either `data`, `texts`, `movies`, `audio`, `software` depending on what you're uploading. 
+
+
 ### Option B: Uploading an Entire Folder (Bulk Upload)
 
 To upload all files inside a directory to a single Internet Archive page:
